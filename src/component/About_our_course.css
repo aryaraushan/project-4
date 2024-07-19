@@ -1,0 +1,30 @@
+
+
+
+.img{
+    animation: glow 2s alternate linear infinite;
+}
+
+@keyframes glow {
+    from{
+        transform: translatey(-8px);
+    }
+    to{
+        transform: translatey(8px);
+    }
+}
+
+
+
+
+.icon:hover{
+    animation: mymove 2s infinite;
+    
+    
+}
+@keyframes mymove {
+    50% {transform: rotateY(180deg);}
+  }
+  .text:hover{
+    color: red;
+  }

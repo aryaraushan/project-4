@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
+import 'remixicon/fonts/remixicon.css'
+import Header from './component/Header.jsx'
+import What_we_offer from './component/What_we_offer.jsx'
+import About_our_course from './component/About_our_course.jsx'
+import Categories from './component/component/Categories.jsx'
+import Explore_popular from './component/component/Explore_popular.jsx'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <>
+      <Header/>
+      <What_we_offer/>
+      <About_our_course/>
+      <Categories/>
+      <Explore_popular/>
+      </>
+    
+  )
 }
 
-export default App;
+export default App
